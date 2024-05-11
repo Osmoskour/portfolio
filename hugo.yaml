@@ -1,0 +1,11 @@
+baseURL: ''
+languageCode: 'en-us'
+title: 'Portfolio Osmoskour'
+theme: "PaperMod"
+
+
+params:
+  profileMode:
+    enabled: true
+    title: "SigmaVision"
+    subtitle: Welcome to the doccumentation of the SigmaVision projet. Here, you can find all you need to understand every line of code written for this project.
