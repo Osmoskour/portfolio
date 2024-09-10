@@ -1,0 +1,29 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Portfolio"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "pp-modified.png"
+  # secondaryLogo = "pp.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "Eloi Couderc"
+  email = "eloi.couderc@epita.fr"
+  image = "pp.png"
+  headline = "Engineering student at EPITA"
+  bio = ""
+  links = [
+    { email = "mailto:eloi.couderc@epita.fr" },
+    { link = "https://osmoskour.github.io/portfolio/" },
+    { discord = "https://discord.com/users/287981738154524673" },
+    { github = "https://github.com/Osmoskour" },
+    { gitlab = "https://gitlab.com/Osmoskour" },
+  ]
