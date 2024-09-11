@@ -11,8 +11,13 @@ cascade:
 {{< lead >}}
 Experience is king in IT...
 {{< /lead >}}
-<h2>
-This section contains every internship I've done over the Years.
-</h2>
 
 --- 
+
+{{< timeline >}}
+
+{{< timelineItem icon="BOC" header="Board of Cyber" badge="Sevres - France" subheader="2024-2025" >}}
+5-month development internship within the Security Rating team.
+{{< /timelineItem >}}
+
+{{< /timeline >}}

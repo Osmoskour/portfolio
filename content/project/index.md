@@ -9,10 +9,9 @@ cascade:
 ---
 
 {{< lead >}}
-They said project are everything in this job...
+Am I a fraud ???
 {{< /lead >}}
-<h2>
-This section contains every project I've done over the Years.
-</h2>
 
---- 
+---
+
+{{< list limit=8 cardView=True where="Type" value="project" >}}
