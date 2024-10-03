@@ -13,17 +13,17 @@
 [[main]]
   name = "Studies"
   pageRef = "studies"
-  weight = 20
+  weight = 40
 
 [[main]]
   name = "Internship"
   pageRef = "internship"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Projects"
   pageRef = "project"
-  weight = 40
+  weight = 30
 
 
 # -- Footer Menu --

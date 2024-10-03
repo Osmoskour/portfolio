@@ -1,11 +1,10 @@
-disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
 title = "Portfolio"
 
 [params]
-  displayName = "EN"
+  displayName = "English"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
