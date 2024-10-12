@@ -63,7 +63,7 @@ Am I a fraud ???
 &lt;/div>
 &lt;hr>
 &lt;h2 class="mt-20 text-2xl font-extrabold mb-10">Recent&lt;/h2>
-&lt;section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+&lt;section class="space-y-10 w-full mt-10 mb-10">
 &lt;/section></description></item><item><title>Studies</title><link>https://osmoskour.github.io/portfolio/studies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>eloi.couderc@epita.fr (Eloi Couderc)</author><guid>https://osmoskour.github.io/portfolio/studies/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
 How did we get there ???
 &lt;/div>
