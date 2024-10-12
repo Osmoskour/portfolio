@@ -14,4 +14,4 @@ Am I a fraud ???
 
 ---
 
-{{< list limit=8 cardView=True where="Slug" value="project">}}
+{{< list limit=8 where="GetTerms" value="project" >}}

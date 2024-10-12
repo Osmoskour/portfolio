@@ -8,8 +8,8 @@ description: "Main Page of the Portfolio"
  
 # About Me
 
-Passionate about combuter since childhood, I joined [EPITA](https://epita.fr) to learn and study everything about them. 
-Here are some technologies I've been experiencing the last years:
+Passionate about Computers since my childhood, I joined the [EPITA](https://epita.fr) school to learn and study everything about them.
+Here are my main technologies I've been learning in the last years:
 - Language: C, C#, C++, Python, Java, JS, bash
 - Framework: React
 - Tools: Vim, Git, Github, Gitlab, Docker
@@ -17,8 +17,8 @@ Here are some technologies I've been experiencing the last years:
 
 <br />
 
-I'me aslo part of the [Prologin](https://prologin.org) association, who promote computer science among young people.
-I supervise [GCC](https://girlscancode.fr) workshop in which we introduce our passion to girl, and I also help to produce the  the French National Computer Science Contest hosted by Prologin every year.
+I am also taking part in the [Prologin](https://prologin.org) association, which promote computer science to young people
+I'm supervising [GCC](https://girlscancode.fr) workshops, in which we share our passion to young woman, and I also help to produce the the French National Computer Science Contest hosted by Prologin every year.
 
 
 <br /><br /><br />
