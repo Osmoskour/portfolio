@@ -17,7 +17,7 @@ Here are my main technologies I've been learning in the last years:
 
 <br />
 
-I am also taking part in the [Prologin](https://prologin.org) association, which promote computer science to young people
+I am also taking part in the [Prologin](https://prologin.org) association, which promote computer science to young people. <br />
 I'm supervising [GCC](https://girlscancode.fr) workshops, in which we share our passion to young woman, and I also help to produce the the French National Computer Science Contest hosted by Prologin every year.
 
 
