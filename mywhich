@@ -1,0 +1,46 @@
+#!/bin/sh
+
+a_flag="false"
+found_flag="false"
+ret=0
+
+while [ "$1" ]; do
+    case "$1" in
+    -a) a_flag="true" ;;
+    -*)
+        error_substr=$(echo "$1" | cut -c2-)
+        >&2 echo "which: unknown option -- $error_substr\nusage: which [-a] ..."
+        exit 1
+        ;;
+    *) break ;;
+    esac
+    shift
+done
+
+[ $# -eq 0 ] && echo "usage: which [-a] name ..." && exit 1
+
+for i in "$@"; do
+    found="false"
+    if [ "$i" = /* ] || [ "$i" = ./* ] || [ "$i" = ../* ]; then
+        if [ -x "$i" ]; then
+            echo "$i"
+            found="true"
+            if [ "$a_flag" = "false" ]; then
+                break
+            fi
+        else
+            >&2 echo "which: $i: Command not found."
+            ret=1
+        fi
+    else
+        IFS=:
+        for j in $PATH; do
+            [ -x "$j/$i" ] && echo "$j/$i" && found="true" && found_flag="true" && [ "$a_flag" = "false" ] && break
+        done
+    fi
+    [ "$found" = "false" ] && >&2 echo "which: $i: Command not found." && ret=1
+done
+
+[ "$found_flag" = "false" ] && ret=2
+
+exit $ret
